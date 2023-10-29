@@ -5,7 +5,7 @@ import slider3 from "../../assets/slider3.png";
 import slider4 from "../../assets/slider4.png";
 import slider5 from "../../assets/slider5.png";
 import OrientationMessage from "../orientationmessage/OrientationMessage";
-import logowhite from "../../assets/logowhite.png";
+import gelie from "../../assets/gelie.svg";
 import facebook from "../../assets/facebook.png";
 import instagram from "../../assets/instagram.png";
 import linkedin from "../../assets/linkedin.png";
@@ -44,7 +44,7 @@ function Slide() {
   return (
     <div className="h-[100vh] w-[100%] relative overflow-hidden">
       <img
-        src={logowhite}
+        src={gelie}
         alt="Logo"
         className="absolute top-10  md:w-28 md:left-14 md:h-16  vvsm:w-16 vvsm:ml-7 vvsm:h-5   object-contain"
       />
